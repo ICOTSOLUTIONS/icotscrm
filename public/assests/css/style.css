@@ -6448,7 +6448,10 @@ pre {
   margin-right: -0.25rem;
   margin-left: -0.25rem;
 }
-
+.closeicon{
+  color: #fff;
+  cursor: pointer;
+}
 .gutters-xs > .col,
 .gutters-xs > [class*="col-"] {
   padding-right: 0.25rem;
@@ -6644,7 +6647,30 @@ pre {
     width: 100%;
   }
 }
-
+.today{
+  color: #fff;
+  font-size: 20px;
+}
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: #fff !important;
+}
+.time{
+  color: #fff;
+  font-size: 15px;
+}
+.total{
+  color: #fff;
+font-size: 16px;
+}
+.date{
+  border-bottom: 1px solid #1586b3;
+}
 .main-sidebar {
   box-shadow: 0 4px 25px 0 rgb(10 66 88);
   position: fixed;
@@ -6655,6 +6681,7 @@ pre {
   z-index: 9999999;
   left: 0;
 }
+
 
 .m-footer {
   margin-top: 10rem !important;
@@ -7449,7 +7476,7 @@ body.layout-3 .main-footer {
   background: #1896c8;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 12px;
   width: 100%;
 }
 

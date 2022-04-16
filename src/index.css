@@ -11313,7 +11313,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: normal;
-  background:#1896c8;
+  /* background:#1896c8; */
   color: gray;
 }
 
@@ -11373,7 +11373,7 @@ h1, h2, h3, h4, h5,
   border-radius: 5px;
   -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
 }
 
 .img, .login-wrap {
